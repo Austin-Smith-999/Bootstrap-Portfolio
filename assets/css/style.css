@@ -1,0 +1,65 @@
+h1 {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.profileImageMargins {
+    margin-right: 104px;
+}
+
+.shrinkImages {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+
+/* .tealBackground {
+    background-color: teal;
+}
+
+.greyLine { */
+    /* background-color: grey; */
+    /* height: 10px;
+    border-bottom: grey 2px solid;
+    margin-bottom: 10px;
+
+} */
+
+ul {
+    display: inline;
+    margin-top: 38px;
+}
+
+li {
+    display: inline;
+}
+
+/*
+h1 {
+    display: inline;
+}
+
+.centerSomething {
+    margin: 0 auto;
+} */
+
+/*
+li {
+    display: inline;
+}
+
+ul {
+    display: inline;
+    
+}
+
+nav {
+    display: inline;
+} */
