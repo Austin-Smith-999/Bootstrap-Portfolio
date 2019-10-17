@@ -42,6 +42,16 @@ li {
     display: inline;
 }
 
+.weirdRandomStuff {
+    font-size: 20px;
+    /* text-align: center; */
+    margin-top: 50px;
+}
+
+button {
+    margin-right: -122px;
+}
+
 /*
 h1 {
     display: inline;
