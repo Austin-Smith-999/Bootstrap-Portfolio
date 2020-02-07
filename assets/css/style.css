@@ -1,3 +1,31 @@
+
+
+html, body {
+    height: 100%;
+}
+
+#footerContainer {
+    min-height: 100%;
+}
+
+#footerMain {
+    overflow: auto;
+    padding-bottom: 70px;
+}
+
+#footer {
+    background-color: black;
+    position: relative;
+    height: 70px;
+    margin-top: -70px;
+    clear: both;
+    color: white;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
 h1 {
     margin-top: 25px;
     margin-bottom: 50px;
@@ -74,3 +102,16 @@ ul {
 nav {
     display: inline;
 } */
+
+
+
+/* .content {
+    min-height: calc(100vh - 10px);
+  }
+.footer {
+    background-color: black;
+    height: 50px;
+    color: rgb(194, 194, 194);
+    font-family: Arial, Helvetica, sans-serif;
+  } */
+
