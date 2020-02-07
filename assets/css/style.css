@@ -84,6 +84,13 @@ button {
     margin-right: -122px;
 }
 
+
+.logoFont {
+    font-family: 'Monoton', cursive;
+    font-size: 60px;
+}
+
+
 /*
 h1 {
     display: inline;
