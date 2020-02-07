@@ -22,6 +22,10 @@ html, body {
     color: white;
 }
 
+.footerMargins {
+    margin-top: 10px;
+}
+
 .alignCenter {
     text-align: center;
 }
