@@ -96,6 +96,9 @@ button {
     text-align: center;
 }
 
+.projectTitleTextClass {
+    font-size: 3em;
+}
 
 /*
 h1 {
