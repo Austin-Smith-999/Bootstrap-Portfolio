@@ -34,19 +34,53 @@
                 </div>
                 </header>
 
+        <script>
+            function checkForBlank() {
+                var errorMessage = "";
+
+                if (document.getElementById("fullName").value == "") {
+                    errorMessage += "Enter your name \n"; 
+                    document.getElementById("fullName").style.borderColor = "red";
+                }
+
+                if (document.getElementById("visitorsEmail").value == "") {
+                    errorMessage += "Enter your email address \n"; 
+                    document.getElementById("visitorsEmail").style.borderColor = "red";
+                }
+
+                if (document.getElementById("visitorsMessage").value == "") {
+                    errorMessage += "Enter your message \n"; 
+                    document.getElementById("visitorsMessage").style.borderColor = "red";
+                }
+
+                
+                if (errorMessage != "") {
+                    alert(errorMessage);
+                    return false;
+                }
+            }
+
+        </script>
+
+
         <main class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
-                        <div class="text-center">  
-                            <h2>Contact</h2>
-                            <div class="greyLine"></div>
-                            <p>Name</p>
-                            <textarea name="" id="" cols="60" rows="1"></textarea>
-                            <p>Email</p>
-                            <textarea name="" id="" cols="60" rows="1"></textarea>
-                            <p>Message</p>
-                            <textarea name="" id="" cols="60" rows="10"></textarea>
-                            <button>Send message</button>
+                        <div class="text-center">
+                            <form method="POST" action="MAILTO:austin.smith.ads@gmail.com" onsubmit="return checkForBlank()">  
+                                <h2>Contact</h2>
+                                <fieldset>
+                                    <div class="greyLine"></div>
+                                    <p>Name</p>
+                                    <textarea name="fullName" id="fullName" cols="60" rows="1"></textarea>
+                                    <p>Email</p>
+                                    <textarea name="visitorsEmail" id="visitorsEmail" cols="60" rows="1"></textarea>
+                                    <p>Message</p>
+                                    <textarea name="visitorsMessage" id="visitorsMessage" cols="60" rows="10"></textarea>
+                                    <button type="submit" value="send data">Send message</button>
+                                </fieldset>
+                            </form>
+                            <h4 class="h4ContactClass">Or just email me at austin.smith.ads@gmail.com</h4>
                         </div>  
                 </div>
                     

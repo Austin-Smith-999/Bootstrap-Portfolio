@@ -114,6 +114,11 @@ button {
     font-family: 'Oswald', sans-serif;
 }
 
+.h4ContactClass {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 /*
 h1 {
     display: inline;
