@@ -29,7 +29,7 @@ html, body {
 
 .portfolioText2 {
     margin-top: 1em;
-    margin-bottom: 0;
+    margin-bottom: 1em;
 }
 
 .footerMargins {
@@ -108,10 +108,33 @@ button {
 
 .projectTitleTextClass {
     font-size: 21px;
+    margin-bottom: 0;
+}
+
+.descriptionBold {
+    font-weight: bold;
+}
+
+.projectTitleTextClassDescription {
+    font-size: 21px;
+    margin: 0;
+}
+
+.marginText {
+    /* margin-bottom: 1em; */
+    margin-top: 1em;
+}
+
+.marginBottomZero {
+    margin-bottom: 0;
+}
+
+.zeroMargins {
+    margin: 0;
 }
 
 .borderBox {
-	margin-top: 15px;
+	/* margin-top: 15px; */
 	margin-bottom: 15px;
 	background: #f9f9f9 0% 0% no-repeat padding-box;
 	border: .8px solid #0c0b0b;
