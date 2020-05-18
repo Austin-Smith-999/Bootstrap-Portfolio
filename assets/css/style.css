@@ -152,38 +152,6 @@ button {
     margin-bottom: 1em;
 }
 
-/*
-h1 {
-    display: inline;
+.githubLink {
+    text-decoration: underline;
 }
-
-.centerSomething {
-    margin: 0 auto;
-} */
-
-/*
-li {
-    display: inline;
-}
-
-ul {
-    display: inline;
-    
-}
-
-nav {
-    display: inline;
-} */
-
-
-
-/* .content {
-    min-height: calc(100vh - 10px);
-  }
-.footer {
-    background-color: black;
-    height: 50px;
-    color: rgb(194, 194, 194);
-    font-family: Arial, Helvetica, sans-serif;
-  } */
-
