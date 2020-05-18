@@ -23,8 +23,13 @@ html, body {
     /* margin-top: 0; */
 }
 
-.portfolioText {
+.portfolioText1 {
     margin-top: 1em;
+}
+
+.portfolioText2 {
+    margin-top: 1em;
+    margin-bottom: 0;
 }
 
 .footerMargins {
