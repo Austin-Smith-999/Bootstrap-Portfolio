@@ -23,6 +23,10 @@ html, body {
     /* margin-top: 0; */
 }
 
+.portfolioText {
+    margin-top: 1em;
+}
+
 .footerMargins {
     margin-top: 10px;
 }
