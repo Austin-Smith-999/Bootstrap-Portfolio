@@ -1,4 +1,13 @@
+@font-face {
+    src: url(../fonts/Monoton/Monoton-Regular.ttf);
+    font-family: MonotonWebFont;
+    
+}
 
+@font-face {
+    src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf);
+    font-family: OswaldWebFont;
+}
 
 html, body {
     height: 100%;
@@ -96,7 +105,8 @@ button {
 
 
 .logoFont {
-    font-family: 'Monoton', cursive;
+    font-family: MonotonWebFont;
+    /* font-family: 'Monoton', cursive; */
     font-size: 60px;
 }
 
@@ -144,7 +154,8 @@ button {
 
 .indexAboutMeParagraphs {
     font-size: 1.8em;
-    font-family: 'Oswald', sans-serif;
+    font-family: OswaldWebFont;
+    /* font-family: ',Oswald', sans-serif; */
 }
 
 .h4ContactClass {
@@ -155,3 +166,4 @@ button {
 .githubLink {
     text-decoration: underline;
 }
+
