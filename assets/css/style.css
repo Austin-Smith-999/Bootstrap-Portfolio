@@ -1,12 +1,12 @@
 @font-face {
-    src: url(../fonts/Monoton/Monoton-Regular.ttf);
     font-family: MonotonWebFont;
+    src: url(../fonts/Monoton/Monoton-Regular.ttf);
     
 }
 
 @font-face {
-    src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf);
     font-family: OswaldWebFont;
+    src: url(../fonts/Oswald/static/Oswald-Regular.ttf);
 }
 
 html, body {
@@ -112,7 +112,7 @@ button {
 
 .clickToGoToResume {
     font-size: 3em;
-    font-family: 'Bungee Shade', cursive;
+    font-family: 'Bungee Shade';
     text-align: center;
 }
 
