@@ -167,3 +167,45 @@ button {
     text-decoration: underline;
 }
 
+.contactButtonAlignCenter {
+    /* text-align:center; */
+    margin:auto;
+    /* align-items: center; */
+    /* margin-top: .5em; */
+}
+
+
+
+/* 
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
+.centerText {
+    /* text-align: center; */
+    /* float: right; */
+}
+
+/* 
+@media screen and (min-width: 480px) {
+    body {
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: lightgreen;
+    }
+    .centerText {text-align: center; color: red; float: right;}
+  } */
