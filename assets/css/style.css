@@ -170,6 +170,8 @@ button {
 .contactButtonAlignCenter {
     /* text-align:center; */
     margin:auto;
+    background-color: red;
+    border-color: red;
     /* align-items: center; */
     /* margin-top: .5em; */
 }
